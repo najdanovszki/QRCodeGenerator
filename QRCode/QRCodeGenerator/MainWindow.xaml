@@ -1,12 +1,14 @@
-﻿<Window x:Class="QRCodeGenerator.MainWindow"
+﻿<Window x:Class="QRGenerator.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:QRCodeGenerator"
+        xmlns:local="clr-namespace:QRGenerator"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="txtTextToConvert" HorizontalAlignment="Left" Height="306" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="391"/>
+        <Button x:Name="btnConvert" Content="Button" HorizontalAlignment="Left" Height="108" Margin="0,311,0,0" VerticalAlignment="Top" Width="391" Click="BtnConvert_Click"/>
+        <Image x:Name="QRImage" HorizontalAlignment="Left" Height="399" Margin="396,10,0,0" VerticalAlignment="Top" Width="386"/>
     </Grid>
 </Window>

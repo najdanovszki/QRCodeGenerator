@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace QRCodeGenerator.Properties
+namespace QRGenerator.Properties
 {
 
 
